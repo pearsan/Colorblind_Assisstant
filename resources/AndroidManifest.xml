@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2" android:versionName="1.0.1" package="com.colorblindpal.colorblindpal" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="21"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:name="com.colorblindpal.colorblindpal.ColorBlindPalApp" android:allowBackup="true" android:supportsRtl="true">
+        <activity android:theme="@style/FullscreenTheme" android:label="@string/app_name" android:name="com.colorblindpal.colorblindpal.CameraActivity" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_cbppreferences" android:name="com.colorblindpal.colorblindpal.CBPPreferencesActivity" android:parentActivityName="com.colorblindpal.colorblindpal.CameraActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.colorblindpal.colorblindpal.CameraActivity"/>
+        </activity>
+    </application>
+</manifest>

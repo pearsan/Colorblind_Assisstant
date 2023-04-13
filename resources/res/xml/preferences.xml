@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:key="@string/pref_key_settings_screen">
+    <PreferenceCategory android:title="@string/pref_general_title" android:key="@string/pref_key_general_category">
+        <Preference android:title="@string/pref_about_display" android:key="@string/pref_key_about"/>
+        <ListPreference android:entries="@array/pref_colorblindnesstype_entries" android:title="@string/pref_colorblindnesstype_display" android:key="@string/pref_key_colorblindnesstype" android:defaultValue="@string/pref_colorblindnesstype_defaultvalue" android:dialogTitle="@string/pref_colorblindnesstype_dialogtitle" android:entryValues="@array/pref_colorblindnesstype_values"/>
+        <ListPreference android:entries="@array/pref_colornamepack_entries" android:title="@string/pref_colornamepack_display" android:key="@string/pref_key_colornamepack" android:defaultValue="@string/pref_colornamepack_defaultvalue" android:dialogTitle="@string/pref_colornamepack_dialogtitle" android:entryValues="@array/pref_colornamepack_values"/>
+        <ListPreference android:entries="@array/pref_cameraquality_entries" android:title="@string/pref_cameraquality_display" android:key="@string/pref_key_cameraquality" android:defaultValue="@string/pref_cameraquality_defaultvalue" android:dialogTitle="@string/pref_cameraquality_dialogtitle" android:entryValues="@array/pref_cameraquality_values"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_colorinspector_title" android:key="@string/pref_key_colorinspector_category">
+        <ListPreference android:entries="@array/pref_samplesize_entries" android:title="@string/pref_samplesize_display" android:key="@string/pref_key_samplesize" android:defaultValue="@string/pref_samplesize_defaultvalue" android:dialogTitle="@string/pref_samplesize_dialogtitle" android:entryValues="@array/pref_samplesize_values"/>
+        <CheckBoxPreference android:title="@string/pref_developercolors_display" android:key="@string/pref_key_developercolors" android:summary="@string/pref_developercolors_summary" android:defaultValue="@bool/pref_developercolors_defaultvalue"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_colorfilter_title" android:key="@string/pref_key_colorfilter_category">
+        <ListPreference android:entries="@array/pref_highlightcolor_entries" android:title="@string/pref_highlightcolor_display" android:key="@string/pref_key_highlightcolor" android:defaultValue="@string/pref_highlightcolor_defaultvalue" android:dialogTitle="@string/pref_highlightcolor_dialogtitle" android:entryValues="@array/pref_highlightcolor_values"/>
+        <ListPreference android:entries="@array/pref_minsaturation_entries" android:title="@string/pref_minsaturation_display" android:key="@string/pref_key_minsaturation" android:defaultValue="@string/pref_minsaturation_defaultvalue" android:dialogTitle="@string/pref_minsaturation_dialogtitle" android:entryValues="@array/pref_minsaturation_values"/>
+        <ListPreference android:entries="@array/pref_stripehue_entries" android:title="@string/pref_stripehue_display" android:key="@string/pref_key_stripehue" android:defaultValue="@string/pref_stripehue_defaultvalue" android:dialogTitle="@string/pref_stripehue_dialogtitle" android:entryValues="@array/pref_stripehue_values"/>
+    </PreferenceCategory>
+</PreferenceScreen>

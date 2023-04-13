@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_cameraquality_entries">
+        <item>@string/lowquality_display</item>
+        <item>@string/medquality_display</item>
+        <item>@string/highquality_display</item>
+    </array>
+    <array name="pref_cameraquality_values">
+        <item>@string/lowquality_value</item>
+        <item>@string/medquality_value</item>
+        <item>@string/highquality_value</item>
+    </array>
+    <array name="pref_colorblindnesstype_entries">
+        <item>@string/normal_vision_display</item>
+        <item>@string/protanopia_display</item>
+        <item>@string/deuteranopia_display</item>
+        <item>@string/tritanopia_display</item>
+        <item>@string/protanopia_simulation_display</item>
+        <item>@string/protanomaly_simulation_display</item>
+        <item>@string/deuteranopia_simulation_display</item>
+        <item>@string/deuteranomaly_simulation_display</item>
+        <item>@string/tritanopia_simulation_display</item>
+    </array>
+    <array name="pref_colorblindnesstype_values">
+        <item>@string/normal_vision_value</item>
+        <item>@string/protanopia_value</item>
+        <item>@string/deuteranopia_value</item>
+        <item>@string/tritanopia_value</item>
+        <item>@string/protanopia_simulation_value</item>
+        <item>@string/protanomaly_simulation_value</item>
+        <item>@string/deuteranopia_simulation_value</item>
+        <item>@string/deuteranomaly_simulation_value</item>
+        <item>@string/tritanopia_simulation_value</item>
+    </array>
+    <array name="pref_colornamepack_entries">
+        <item>@string/common_display</item>
+        <item>@string/scientific_display</item>
+        <item>@string/colloquial_display</item>
+    </array>
+    <array name="pref_colornamepack_values">
+        <item>@string/common_value</item>
+        <item>@string/scientific_value</item>
+        <item>@string/colloquial_value</item>
+    </array>
+    <array name="pref_highlightcolor_entries">
+        <item>@string/red_display</item>
+        <item>@string/orange_display</item>
+        <item>@string/yellow_display</item>
+        <item>@string/lime_display</item>
+        <item>@string/green_display</item>
+        <item>@string/turquoise_display</item>
+        <item>@string/cyan_display</item>
+        <item>@string/cobalt_display</item>
+        <item>@string/blue_display</item>
+        <item>@string/violet_display</item>
+        <item>@string/magenta_display</item>
+        <item>@string/crimson_display</item>
+        <item>@string/black_display</item>
+        <item>@string/white_display</item>
+    </array>
+    <array name="pref_highlightcolor_values">
+        <item>@string/red_value</item>
+        <item>@string/orange_value</item>
+        <item>@string/yellow_value</item>
+        <item>@string/lime_value</item>
+        <item>@string/green_value</item>
+        <item>@string/turquoise_value</item>
+        <item>@string/cyan_value</item>
+        <item>@string/cobalt_value</item>
+        <item>@string/blue_value</item>
+        <item>@string/violet_value</item>
+        <item>@string/magenta_value</item>
+        <item>@string/crimson_value</item>
+        <item>@string/black_value</item>
+        <item>@string/white_value</item>
+    </array>
+    <array name="pref_minsaturation_entries">
+        <item>@string/zero_percent_display</item>
+        <item>@string/ten_percent_display</item>
+        <item>@string/twenty_percent_display</item>
+        <item>@string/thirty_percent_display</item>
+        <item>@string/forty_percent_display</item>
+        <item>@string/fifty_percent_display</item>
+        <item>@string/sixty_percent_display</item>
+        <item>@string/seventy_percent_display</item>
+        <item>@string/eighty_percent_display</item>
+        <item>@string/ninety_percent_display</item>
+        <item>@string/hundred_percent_display</item>
+    </array>
+    <array name="pref_minsaturation_values">
+        <item>@string/zero_percent_value</item>
+        <item>@string/ten_percent_value</item>
+        <item>@string/twenty_percent_value</item>
+        <item>@string/thirty_percent_value</item>
+        <item>@string/forty_percent_value</item>
+        <item>@string/fifty_percent_value</item>
+        <item>@string/sixty_percent_value</item>
+        <item>@string/seventy_percent_value</item>
+        <item>@string/eighty_percent_value</item>
+        <item>@string/ninety_percent_value</item>
+        <item>@string/hundred_percent_value</item>
+    </array>
+    <array name="pref_samplesize_entries">
+        <item>@string/small_display</item>
+        <item>@string/medium_display</item>
+        <item>@string/large_display</item>
+    </array>
+    <array name="pref_samplesize_values">
+        <item>@string/small_value</item>
+        <item>@string/medium_value</item>
+        <item>@string/large_value</item>
+    </array>
+    <array name="pref_stripehue_entries">
+        <item>@string/red_display</item>
+        <item>@string/orange_display</item>
+        <item>@string/yellow_display</item>
+        <item>@string/lime_display</item>
+        <item>@string/green_display</item>
+        <item>@string/turquoise_display</item>
+        <item>@string/cyan_display</item>
+        <item>@string/cobalt_display</item>
+        <item>@string/blue_display</item>
+        <item>@string/violet_display</item>
+        <item>@string/magenta_display</item>
+        <item>@string/crimson_display</item>
+    </array>
+    <array name="pref_stripehue_values">
+        <item>@string/red_value</item>
+        <item>@string/orange_value</item>
+        <item>@string/yellow_value</item>
+        <item>@string/lime_value</item>
+        <item>@string/green_value</item>
+        <item>@string/turquoise_value</item>
+        <item>@string/cyan_value</item>
+        <item>@string/cobalt_value</item>
+        <item>@string/blue_value</item>
+        <item>@string/violet_value</item>
+        <item>@string/magenta_value</item>
+        <item>@string/crimson_value</item>
+    </array>
+</resources>
